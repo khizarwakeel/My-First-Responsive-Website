@@ -1,0 +1,155 @@
+/* Here is Navbar Code! */
+
+div>.navbar {
+    background-color: #0070dc !important;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-weight: bold !important;
+}
+
+.nav-link:hover {
+    text-decoration: underline !important;
+}
+
+img:hover {
+    background-color: #0b5ba7;
+    border-radius: 20px;
+}
+
+.fa-shopping-cart {
+    font-size: 25px !important;
+}
+
+/* Here is Slider Code! */
+
+.d-block:hover {
+    background-color: white !important;
+    border-radius: 0px !important;
+}
+
+/* Here is providingServices Code! */
+
+.providingServices {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card1,
+.card2,
+.card3 {
+    display: flex;
+    width: 430px;
+    height: 70px;
+    background-color: rgb(230, 227, 227);
+    box-shadow: 2px 4px 5px grey;
+    color: #0070dc;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.fa-truck,
+.fa-users,
+.fa-thumbs-o-up {
+    font-size: 32px !important;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 900px) {
+
+    .card1,
+    .card2,
+    .card3 {
+        width: 120%;
+    }
+}
+
+/* Here is Add to cart Code! */
+
+.card {
+    width: 200px;
+    border: none !important;
+}
+
+.col {
+    margin: 5px;
+    margin-bottom: 30px;
+}
+
+.bpd {
+    font-weight: bold;
+}
+
+.btn-primary {
+    width: 100%;
+    background-color: #0070dc !important;
+    border-radius: 20px !important;
+}
+
+.newArivalsHead {
+    text-align: center;
+    color: #0070dc;
+    text-shadow: 2px 2px 5px #0070dc;
+}
+
+@media screen and (max-width: 484px) {
+
+    .card {
+        margin: auto;
+    }
+}
+
+/* Here is Footer Code! */
+
+.content {
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+
+.footer {
+    background-color: #0b5ba7;
+    width: 100%;
+    height: 150px;
+    padding: 20px 40px 0px 40px;
+}
+
+@media screen and (max-width: 596px) {
+
+    .footer {
+        height: 170px;
+    }
+}
+
+@media screen and (max-width: 437px) {
+
+    .footer {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 292px) {
+
+    .footer {
+        height: 320px;
+    }
+}
+
+@media screen and (max-width: 249px) {
+
+    .footer {
+        height: 520px;
+    }
+}
+
+@media screen and (max-width: 180px) {
+
+    .footer {
+        height: 685px;
+    }
+}
